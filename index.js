@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
 (async () => {
-    const url = "mongodb+srv://usermongo:mongodb@cluster0.priti.mongodb.net/API?retryWrites=true&w=majority";
+    const url = "mongodb+srv://mongo-db:mongo-db@cluster0.priti.mongodb.net/API?retryWrites=true&w=majority";
     const dbName = "API";
 
     console.info("Conectando ao banco de dados...");
